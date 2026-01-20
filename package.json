@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --watch"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "build:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
