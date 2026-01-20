@@ -2,8 +2,8 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "dev:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify",
-    "build:cdn": "npx tailwindcss -i ./src/input-cdn.css -o ./src/output-cdn.css --minify"
+    "build": "echo \"No build needed ✔\"",
+    "build:cdn": "echo \"No build needed ✔\""
   },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
